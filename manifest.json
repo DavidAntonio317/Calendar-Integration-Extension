@@ -11,7 +11,7 @@
     },
     "action":{
         "default_title": "Calendaring at your finest",
-        "default_popup": "popup.html"
+        "default_popup": "index.html"
     },
 
     "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhzgRcFEYZhMVn2TafoehNVc203KZeieHvpg/ib02Buh4xszxmSlDPByJ8bVpgCHo89yj4HKgU7nEsq7K9O1sFVCIK3Rny3t4i3KL4ExGCIa/zIa4P0EE5RC8Nzf4TiBuRANLb2Dm+TXERpoJkRFpdMg1LoQ8ylxL4Ji81u4lQ824LgfXAXZODUJpL8B+cCStSQlCSIaLnVasG0VhODbJ1kAerkcFupUrZq1iCmRDhCDixCug7tZObsdWfwEFn+Gt5dHNLBpmoMa7s4qIRtqYw0vAm4YpUA/P7PpxPUTYSSdtI5tjLY4LgXnkcH976cYgLc5roClcZ47ZjGhcElLlFwIDAQAB",
