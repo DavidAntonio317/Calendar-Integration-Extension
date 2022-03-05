@@ -1,5 +1,5 @@
-const SESSION_MINUTES = 30;
-const BREAK_MINUTES = 5;
+const SESSION_MINUTES = 1;
+const BREAK_MINUTES = 1;
 
 class Pomodoro {
     constructor(root) {
@@ -32,6 +32,7 @@ class Pomodoro {
             this.updateTimerDisplay();
 
             if (this.remainingSeconds === 0) {
+                alert('Time to take a ' + BREAK_MINUTES + ' minute break.');
                 clearInterval(this.interval);
                 this.remainingSeconds = BREAK_MINUTES * 60;
                 this.updateTimerDisplay();
@@ -47,6 +48,7 @@ class Pomodoro {
             this.updateTimerDisplay();
             
             if (this.remainingSeconds === 0) {
+                alert('Time to concentrate for ' + SESSION_MINUTES + ' minutes.');
                 clearInterval(this.interval);
                 this.remainingSeconds = SESSION_MINUTES * 60;
                 this.updateTimerDisplay();
