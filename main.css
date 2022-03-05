@@ -60,13 +60,18 @@ width: 100%;
 
 .pomodoro-body {
     width: 500px;
-    height: 200px;
+    height: 300px;
     overflow: hidden;
 }
 
 .pomodoro-title {
     font-size: 30px;
     text-align: center;
+}
+
+.pomodoro-status {
+    font-size: 15px;
+    text-align: center
 }
 
 .pomodoro-timer-display {
